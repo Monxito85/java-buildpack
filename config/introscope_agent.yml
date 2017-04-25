@@ -16,5 +16,5 @@
 # Configuration for the CA Wily framework
 ---
 repository_root: "http://localhost:81/introscope"
-version: 9.7.+
+version: 10.2.+
 default_agent_name: ! '$(ruby -e "require ''json'' ; puts JSON.parse(ENV[''VCAP_APPLICATION''])[''application_name'']")'
