@@ -16,5 +16,5 @@
 # Configuration for the CA Wily framework
 ---
 repository_root: "http://www.eagledata.pe/introscope/"
-version: 10.2.+
+version: 9.7.+
 default_agent_name: ! '$(ruby -e "require ''json'' ; puts JSON.parse(ENV[''VCAP_APPLICATION''])[''application_name'']")'
