@@ -16,5 +16,5 @@
 # Configuration for the CA Wily framework
 ---
 repository_root: "http://www.eagledata.pe/introscope/"
-version: 10.2.+
+version: 10.5.+
 default_agent_name: "BluemixPrueba"
